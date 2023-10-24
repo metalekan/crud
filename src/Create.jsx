@@ -34,6 +34,7 @@ const Create = () => {
             <input className='form-control' type="text" name="name" placeholder="Email Address" onChange={e => setEmail(e.target.value)} />
           </div> <br />
           <button className='btn btn-success'>Submit</button>
+          <button className='btn btn-danger interact-button'>Submit</button>
         </form>
       </div>
     </div>
